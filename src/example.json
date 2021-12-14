@@ -1,0 +1,35 @@
+{
+    "nested": {
+      "onChainMetaData": {
+        "nested": {
+          "NFTMeta": {
+            "fields": {
+              "Badge Type": {
+                "id": 2,
+                "rule": "required",
+                "type": "BadgeType"
+              },
+              "Ambassador Name": {
+                "id": 1,
+                "rule": "optional",
+                "type": "string"
+              }
+            }
+          },
+          "BadgeType": {
+            "options": {
+              "PROP_0":"{\"en\": \"Candidate\"}",
+              "PROP_1":"{\"en\": \"Polkadot King\"}",
+              "PROP_2":"{\"en\": \"Polkadot Queen\"}",
+              "PROP_3":"{\"en\": \"Kusama Prince\"}",
+              "PROP_4":"{\"en\": \"Kusama Pricess\"}"
+            },
+            "values": {
+              "PROP_0":0,"PROP_1":1,"PROP_2":2,"PROP_3":3,"PROP_4":4
+            }
+          }
+
+        }
+      }
+    }
+}
