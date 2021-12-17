@@ -19,6 +19,16 @@ export type AttributeItemType = {
   values: string[];
 }
 
+export const defaultAttributesWithTokenIpfs: AttributeItemType[] = [
+  {
+    fieldType: 'string',
+    id: 0,
+    name: 'ipfsJson',
+    rule: 'required',
+    values: []
+  }
+];
+
 type EnumElemType = { options: { [key: string]: string}, values: { [key: string]: number } };
 type NFTMetaType = {
   fields: {
